@@ -1,0 +1,51 @@
+.taskContainer {
+	width: 100%;
+	overflow-x: hidden;
+	position: relative;
+	max-height: 300px;
+	overflow-y: auto;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+
+	max-width: 1000px;
+}
+.Tasks {
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+
+	position: relative;
+	background-color: rgb(218, 218, 218);
+	margin: 15px auto;
+	padding: 10px 15px;
+	width: 800px;
+
+	left: 10px;
+	border-radius: 20px;
+	gap: 15px;
+
+	max-height: 80px;
+}
+.Delete {
+	position: static;
+	flex: 1;
+}
+.Edit {
+	position: static;
+	flex: 1;
+	width: 50px;
+}
+.Taskname {
+	flex: 1;
+	max-height: 70vh;
+	line-height: 1.4;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	flex: 1;
+	width: 100%;
+	font-size: 16px;
+
+	border-radius: 20px;
+}

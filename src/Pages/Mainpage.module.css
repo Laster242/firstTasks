@@ -1,0 +1,41 @@
+body {
+	background: linear-gradient(to right, #721e56, #c01cc3);
+	height: 100vh;
+	margin: 100%;
+	background-size: cover;
+}
+.header {
+	background: white;
+	color: rgb(12, 15, 84);
+	border-radius: 20px;
+	width: 1000px;
+	height: 650px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 4px 25px rgba(0, 0, 0, 0.3);
+}
+.title {
+	position: absolute;
+	top: 50px;
+}
+.firstInput {
+	color: black;
+
+	position: absolute;
+	background-color: gainsboro;
+	width: 800px;
+	height: 40px;
+	border-radius: 20px;
+	top: 190px;
+}
+.addButton {
+	background-color: orange;
+	position: absolute;
+	width: 120px;
+	height: 45px;
+	border-radius: 80px;
+	right: 350px;
+	top: 190px;
+}
